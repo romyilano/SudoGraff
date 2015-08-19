@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBDE3291B840B0100B13B76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBDE3281B840B0100B13B76 /* AppDelegate.swift */; };
+		ECBDE32B1B840B0100B13B76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBDE32A1B840B0100B13B76 /* ViewController.swift */; };
+		ECBDE3331B840B0100B13B76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECBDE3311B840B0100B13B76 /* LaunchScreen.xib */; };
+		ECBDE33F1B840B0100B13B76 /* SudoGraffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBDE33E1B840B0100B13B76 /* SudoGraffTests.swift */; };
+		ECBDE34B1B840B1700B13B76 /* SudoDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBDE3481B840B1700B13B76 /* SudoDrawViewController.swift */; };
+		ECBDE34C1B840B1700B13B76 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBDE3491B840B1700B13B76 /* SettingsViewController.swift */; };
+		ECBDE34D1B840B1700B13B76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBDE34A1B840B1700B13B76 /* Main.storyboard */; };
+		ECBDE34F1B840B2700B13B76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBDE34E1B840B2700B13B76 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBDE3391B840B0100B13B76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBDE31B1B840B0100B13B76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBDE3221B840B0100B13B76;
+			remoteInfo = SudoGraff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECBDE3231B840B0100B13B76 /* SudoGraff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudoGraff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBDE3271B840B0100B13B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBDE3281B840B0100B13B76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECBDE32A1B840B0100B13B76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECBDE3321B840B0100B13B76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ECBDE3381B840B0100B13B76 /* SudoGraffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudoGraffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBDE33D1B840B0100B13B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBDE33E1B840B0100B13B76 /* SudoGraffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudoGraffTests.swift; sourceTree = "<group>"; };
+		ECBDE3481B840B1700B13B76 /* SudoDrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SudoDrawViewController.swift; sourceTree = "<group>"; };
+		ECBDE3491B840B1700B13B76 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ECBDE34A1B840B1700B13B76 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ECBDE34E1B840B2700B13B76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBDE3201B840B0100B13B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBDE3351B840B0100B13B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBDE31A1B840B0100B13B76 = {
+			isa = PBXGroup;
+			children = (
+				ECBDE3251B840B0100B13B76 /* SudoGraff */,
+				ECBDE33B1B840B0100B13B76 /* SudoGraffTests */,
+				ECBDE3241B840B0100B13B76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBDE3241B840B0100B13B76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBDE3231B840B0100B13B76 /* SudoGraff.app */,
+				ECBDE3381B840B0100B13B76 /* SudoGraffTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBDE3251B840B0100B13B76 /* SudoGraff */ = {
+			isa = PBXGroup;
+			children = (
+				ECBDE3281B840B0100B13B76 /* AppDelegate.swift */,
+				ECBDE32A1B840B0100B13B76 /* ViewController.swift */,
+				ECBDE3481B840B1700B13B76 /* SudoDrawViewController.swift */,
+				ECBDE3491B840B1700B13B76 /* SettingsViewController.swift */,
+				ECBDE34E1B840B2700B13B76 /* Images.xcassets */,
+				ECBDE34A1B840B1700B13B76 /* Main.storyboard */,
+				ECBDE3311B840B0100B13B76 /* LaunchScreen.xib */,
+				ECBDE3261B840B0100B13B76 /* Supporting Files */,
+			);
+			path = SudoGraff;
+			sourceTree = "<group>";
+		};
+		ECBDE3261B840B0100B13B76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBDE3271B840B0100B13B76 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECBDE33B1B840B0100B13B76 /* SudoGraffTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBDE33E1B840B0100B13B76 /* SudoGraffTests.swift */,
+				ECBDE33C1B840B0100B13B76 /* Supporting Files */,
+			);
+			path = SudoGraffTests;
+			sourceTree = "<group>";
+		};
+		ECBDE33C1B840B0100B13B76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBDE33D1B840B0100B13B76 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBDE3221B840B0100B13B76 /* SudoGraff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBDE3421B840B0100B13B76 /* Build configuration list for PBXNativeTarget "SudoGraff" */;
+			buildPhases = (
+				ECBDE31F1B840B0100B13B76 /* Sources */,
+				ECBDE3201B840B0100B13B76 /* Frameworks */,
+				ECBDE3211B840B0100B13B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudoGraff;
+			productName = SudoGraff;
+			productReference = ECBDE3231B840B0100B13B76 /* SudoGraff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBDE3371B840B0100B13B76 /* SudoGraffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBDE3451B840B0100B13B76 /* Build configuration list for PBXNativeTarget "SudoGraffTests" */;
+			buildPhases = (
+				ECBDE3341B840B0100B13B76 /* Sources */,
+				ECBDE3351B840B0100B13B76 /* Frameworks */,
+				ECBDE3361B840B0100B13B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBDE33A1B840B0100B13B76 /* PBXTargetDependency */,
+			);
+			name = SudoGraffTests;
+			productName = SudoGraffTests;
+			productReference = ECBDE3381B840B0100B13B76 /* SudoGraffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBDE31B1B840B0100B13B76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Romy;
+				TargetAttributes = {
+					ECBDE3221B840B0100B13B76 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					ECBDE3371B840B0100B13B76 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = ECBDE3221B840B0100B13B76;
+					};
+				};
+			};
+			buildConfigurationList = ECBDE31E1B840B0100B13B76 /* Build configuration list for PBXProject "SudoGraff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBDE31A1B840B0100B13B76;
+			productRefGroup = ECBDE3241B840B0100B13B76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBDE3221B840B0100B13B76 /* SudoGraff */,
+				ECBDE3371B840B0100B13B76 /* SudoGraffTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBDE3211B840B0100B13B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBDE34F1B840B2700B13B76 /* Images.xcassets in Resources */,
+				ECBDE34D1B840B1700B13B76 /* Main.storyboard in Resources */,
+				ECBDE3331B840B0100B13B76 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBDE3361B840B0100B13B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBDE31F1B840B0100B13B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBDE32B1B840B0100B13B76 /* ViewController.swift in Sources */,
+				ECBDE34B1B840B1700B13B76 /* SudoDrawViewController.swift in Sources */,
+				ECBDE3291B840B0100B13B76 /* AppDelegate.swift in Sources */,
+				ECBDE34C1B840B1700B13B76 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBDE3341B840B0100B13B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBDE33F1B840B0100B13B76 /* SudoGraffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBDE33A1B840B0100B13B76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBDE3221B840B0100B13B76 /* SudoGraff */;
+			targetProxy = ECBDE3391B840B0100B13B76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECBDE3311B840B0100B13B76 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBDE3321B840B0100B13B76 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBDE3401B840B0100B13B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECBDE3411B840B0100B13B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBDE3431B840B0100B13B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SudoGraff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECBDE3441B840B0100B13B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SudoGraff/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECBDE3461B840B0100B13B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SudoGraffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SudoGraff.app/SudoGraff";
+			};
+			name = Debug;
+		};
+		ECBDE3471B840B0100B13B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SudoGraffTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SudoGraff.app/SudoGraff";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBDE31E1B840B0100B13B76 /* Build configuration list for PBXProject "SudoGraff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBDE3401B840B0100B13B76 /* Debug */,
+				ECBDE3411B840B0100B13B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBDE3421B840B0100B13B76 /* Build configuration list for PBXNativeTarget "SudoGraff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBDE3431B840B0100B13B76 /* Debug */,
+				ECBDE3441B840B0100B13B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECBDE3451B840B0100B13B76 /* Build configuration list for PBXNativeTarget "SudoGraffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBDE3461B840B0100B13B76 /* Debug */,
+				ECBDE3471B840B0100B13B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBDE31B1B840B0100B13B76 /* Project object */;
+}
