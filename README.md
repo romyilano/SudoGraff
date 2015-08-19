@@ -13,4 +13,9 @@ how to use technical equipment like the shop, or enabling people to leave instru
 
 # Project
 
-part of SudoCare [https://sudoroom.org/wiki/SudoCare](https://sudoroom.org/wiki/SudoCare) 
+part of SudoCare [https://sudoroom.org/wiki/SudoCare](https://sudoroom.org/wiki/SudoCare)
+
+# Misc
+
+Using swift code with Objective-C -> Bridging headers
+https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html 
